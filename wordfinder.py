@@ -17,6 +17,6 @@ class WordFinder:
             return set()
         
     def find(self, word):
-        """check if the word is in the dictionary"""
+        """return true if the word is in the dictionary file """
         return word in self.words
     
